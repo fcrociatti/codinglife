@@ -1,0 +1,209 @@
+/* Estilo para o header com imagem de fundo */
+.header-fullscreen {
+    position: relative;
+    /* height: 100vh; */
+    background-image: url("../../img/fundo-site.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* Overlay para escurecer a imagem de fundo */
+.header-fullscreen .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Conteúdo do cabeçalho */
+.header-content {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.header-content h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.header-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header-content .btn:hover {
+    background-color: #ff784e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-fundo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.background-container {
+    background-image: url("../../img/fundo-site.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* HEADER DA HOME */
+.header-home{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+ 
+}
+
+/* IMAGEM DENTRO DO HEADER DA HOME */
+.logo{
+    object-fit: contain;
+    /* width: 200px; */
+    height: 70px;
+}
+
+.desktop-links, .desktop-ul, .desktop-li, .desktop-a{
+    list-style: none;
+    padding-left: 8px;/* ESPAÇAMENTO DE UM ELEMENTO LI A OUTRO */
+    display: flex;
+    align-self: center;
+    
+}
+
+/* COR DA LETRA DA PÁGINA HOME */
+.header-home .desktop-links .desktop-ul .desktop-li .desktop-a {
+    color: var(--fundo-branco);/* chamando a cor da variavel global, para facilitar na hora de procurar a # da cor */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* QUANDO O USUARIO PASSAR O MOUSE EM CIMA DAS OPÇÕES DO HEADER, FICARA CINZA CLARO*/
+.header-home .desktop-links .desktop-ul .desktop-li .desktop-a:hover{
+    color: var(--titulo-claro);
+    cursor: pointer;
+    transition: transform 1.3s ease; /* Adicionando uma transição suave de 0.3 segundos */
+
+    transform: scale(1.15);
+}
+/* QUANDO O USUARIO PASSAR E CLICAR EM ALGUMA DAS OPÇÕES DO HEADER, FICARA LILAS */
+.header-home .desktop-links .desktop-ul .desktop-li .desktop-a:active {
+    color: var(--lilas);
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Adicionando uma transição suave de 0.3 segundos */
+    transform: scale(1.20);
+}
+
+/* Ícone do menu mobile */
+.menu-icon {
+    display: none;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+/* Estilos do menu overlay mobile */
+.mobile-menu-overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.mobile-menu-overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 3em;
+    cursor: pointer;
+    color: var(--fundo-branco);
+}
+
+.mobile-menu-overlay .closebtn:hover{
+    color: var(--lilas);
+} 
+
+.mobile-menu {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-menu li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.mobile-menu li a {
+    font-size: 24px;
+    transition: color 0.3s;
+    color: var(--fundo-branco);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.mobile-menu li a:hover {
+    color: var(--lilas);
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+    .desktop-links {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+}

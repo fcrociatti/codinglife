@@ -1,0 +1,303 @@
+.titulo-home{
+    color: var(--fundo-branco);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+}
+
+.sub-home{
+    color: #c4c4c4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+   line-height: 36px;
+    padding-top: 30px;
+}
+
+.Container-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sobrenos{
+    border: 1px solid var(--sub-roxo);/* grossura da borda, tipo da borda, cor */
+    border-radius: 5px;
+    background: linear-gradient(to right, #A780F5 08%, #641AF8 70%);
+    width: 10%;
+    height: 56px;
+    color: var(--fundo-branco);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 36px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.sobrenos:hover {
+    border: none; /* Remove a borda */
+    color: var(--fundo-branco);
+    cursor: pointer;
+    transform: scale(1.1); /* Aumenta o tamanho do botão */
+}
+
+.informacoes{
+    color: var(--fundo-branco);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+   /*line-height: 36px; */
+    padding-top: 30px;
+    /* padding-right: 36px; */
+}
+
+.informacoes-mais{
+    color: #A780F5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+   /*line-height: 36px; */
+    padding-top: 30px;
+}
+
+.sub-info{
+    color: #c4c4c4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+   /*line-height: 36px; */
+}
+
+.container-sobre{
+    padding: 64px 10%;
+    /* display: block;
+    float: left; */
+}
+
+.container-conteudo{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 0;
+}
+
+.linha-roxa {
+    height: 12px;
+    border: 4px  transparent;
+    background: linear-gradient(to right, #A780F5 8%, #641AF8 70%);
+    border-radius: inherit; /* Mantém a borda arredondada, se aplicável */
+    width: 90px;
+}
+.titulo-SobreNos{
+    color: var(--sub-roxo);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    padding: 24px 0;
+}
+
+.his-sobrenos{
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 36px;
+}
+
+.extra-text {
+    display: none; /* Esconde o texto extra inicialmente */
+}
+
+.btn-VerMais{
+    border: transparent;/* grossura da borda, tipo da borda, cor */
+    border-radius: 5px;
+    background: linear-gradient(to right, #A780F5 08%, #641AF8 70%);
+    height: 56px;
+    width: 23%;
+    color: var(--fundo-branco);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.btn-VerMais:hover {
+    border: none; /* Remove a borda */
+    color: var(--fundo-branco);
+    cursor: pointer;
+    transform: scale(1.1); /* Aumenta o tamanho do botão */
+}
+
+
+.container-servicos{
+    display: flex;
+    flex-direction: row;
+}
+.imgRedi{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.service {
+    width: 30%;
+    text-align: center;
+}
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.descricao{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    width: 33.3%;
+    height: fit-content;
+    padding: 16px;
+}
+
+/* Estilo para o botão flutuante */
+#backToTopBtn {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: #641AF8;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+#backToTopBtn:hover {
+    background-color: #A780F5;
+}
+
+.txtnome{
+    color: var(--sub-roxo);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+   /*line-height: 36px; */
+   padding: 18px 16px 0;
+    text-align: center !important;
+}
+
+.cargos{
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+   line-height: 20px;
+   padding: 10px 16px 0;
+    text-align: center;
+}
+
+.imgEquipe{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.integrantes{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    width: 25%;
+    height: fit-content;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.extra{
+    padding-left: 8%;
+}
+
+.right{
+    padding-right: 8%;
+}
+
+.informacoes1{
+    color: var(--sub-roxo);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.pd{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.pd-fer{
+    padding: 18px 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    .imgRedi {
+        height: 210px !important;
+    }
+    .btn-VerMais{
+        width: 50%;
+        height:45px;
+       
+    }
+    .titulo-home{
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .sub-home{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .logo{
+        width: 70px !important;
+    }
+
+    .informacoes{
+        padding-right: 18px;
+        font-size: 18px
+    }
+    
+    .informacoes-mais{
+        font-size: 18px;
+    }
+
+    .sub-info{
+        font-size: 16px
+    }
+
+    footer{
+        width: 100%;
+        height: 55% !important;
+    }
+
+    .imgEquipe{
+        width: 140px !important;
+        height: 140px !important;
+
+    }
+}
+
+/* Estilo para dispositivos móveis (largura máxima de 480px) */
+/* @media (max-width: 480px) {
+    .imgRedi {
+        height: 210px;
+    }
+} */

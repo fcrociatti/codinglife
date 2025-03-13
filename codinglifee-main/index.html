@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/LogoIco.ico"/>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+     <!-- CHAMANDO O CSS DO HEADER, ESTANDO DENTRO DA PASTA CSS + COMPONENTS -->
+     <link rel="stylesheet" href="css/components/header.css">
+     <link rel="stylesheet" href="css/components/footer.css">
+     <script type="text/javascript" src="js/script.js"></script>
+    <title>Coding Life</title>
+   
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-fullscreen">
+        <div class="overlay" id="home">
+            <div class="header-home">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo da Coding Life"></a>
+                
+                <nav class="desktop-links">
+                    <ul class="desktop-ul">
+                        <li class="desktop-li"><a class="desktop-a" href="#home">HOME</a></li>
+                        <li class="desktop-li"><a class="desktop-a" href="#sobrenos">SOBRE NÓS</a></li>
+                        <li class="desktop-li"><a class="desktop-a" href="#servicos">SERVIÇOS</a></li>
+                        <li class="desktop-li"><a class="desktop-a" href="#equipe">EQUIPE</a></li>
+                        <li class="desktop-li"><a class="desktop-a" href="#contatos">CONTATOS</a></li>
+                    </ul>
+                </nav>
+                
+
+                <div class="menu-icon pt-3" id="menuIcon">
+                    &#9776;
+                </div>
+            </div>
+
+            <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+                <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+                <ul class="mobile-menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#sobrenos">SOBRE NÓS</a></li>
+                    <li><a href="#servicos">SERVIÇOS</a></li>
+                    <li><a href="#equipe">EQUIPE</a></li>
+                    <li><a href="#contatos">CONTATOS</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+            <header class="Container-home pt-5 pb-5">
+                <h1 class="titulo-home pt-5">Promovemos <br> a integração entre tecnologia <br> e experiência humana</h1>
+    
+                <p class="sub-home">​Procuramos criar uma ligação profunda entre o software e o usuário,<br> 
+                    semelhante à harmonia que o ser humano encontra na natureza. <br>
+                    Nossa missão é proporcionar uma experiência fluida e intuitiva.
+                </p>
+    
+                <div class="container-servicos row">
+                    <div class="col-4 col-lg-2">
+                        <p class="informacoes">250 
+                            <span class="informacoes-mais">+</span><br> <p class="sub-info">Cliente <br> Satisfeito 
+                        </p>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <p class="informacoes ">400 
+                            <span class="informacoes-mais">+</span> <br> <p class="sub-info">Projetos <br> incriveis
+                        </p>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <p class="informacoes">15 
+                            <span class="informacoes-mais">+</span> <br> <p class="sub-info">Premiações
+                        </p>
+                    </div>
+                </div>
+
+
+            </header>
+            <!-- <div class="header-content">
+                <h1>Bem-vindo ao Nosso Site</h1>
+                <p>Explore nossos serviços e conheça nossa equipe</p>
+                <a href="#sobre" class="btn">Saiba Mais</a>
+            </div> -->
+        </div>
+    </header>
+    <!-- <div class="container-fluid p-0" id="home">
+        <img src="../../../img/fundo-site.png" class="img-fundo" alt="...">
+
+        <div class="header-home position-absolute z-5">
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo da Coding Life"></a>
+
+            <nav class="desktop-links">
+            <ul class="desktop-ul">
+                <li class="desktop-li"><a class="desktop-a" href="#home">HOME</a></li>
+                <li class="desktop-li"><a class="desktop-a" href="#sobrenos">SOBRE NÓS</a></li>
+                <li class="desktop-li"><a class="desktop-a" href="#servicos">SERVIÇOS</a></li>
+                <li class="desktop-li"><a class="desktop-a" href="#equipe">EQUIPE</a></li>
+                <li class="desktop-li"><a class="desktop-a" href="#contatos">CONTATOS</a></li>
+            </ul>
+            </nav>
+        </div>
+    </div> -->
+
+     <!-- Conteudo -->
+     <div class="container-fluid my-5 ">
+        <!-- sessão sobre nós -->
+        <section class="container mt-5" id="sobrenos">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <div class="linha-roxa mt-5"></div>
+                    <h1 class="titulo-SobreNos mt-5">Sobre nós</h1>
+                </div>
+
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <p class="his-sobrenos">Na Coding Life, estamos dedicados a fornecer soluções de primeira linha que atendam às necessidades específicas de cada cliente. 
+                        Buscamos ser uma empresa de software inovadora, destacando-nos pela nossa capacidade de criar uma conexão profunda entre o software e os usuários. Desde nossa fundação, nosso objetivo é proporcionar uma experiência intuitiva e harmoniosa, semelhante à relação do ser humano com a natureza. <span id="ellipsis">...</span>
+                        <span class="extra-text">A história da empresa é um testemunho de como a tecnologia pode ser desenvolvida com propósito, 
+                            criando experiências que não apenas atendem as necessidades dos usuarios, mas tambem enriquecem suas vidas.</span>
+                    </p>
+
+                    <button id="verMaisBtn" class="btn-VerMais mt-2 mb-2">Ver mais</button>
+                </div>
+
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <img class="img-fluid d-none d-lg-block" src="img/office.jpg" alt="Office">
+                </div>
+            </div>   
+        </section>
+
+        <!-- sessão serviços -->
+        <section class="container mt-5" id="servicos">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="linha-roxa mt-5"></div>
+                    <h1 class="titulo-SobreNos mt-5">Nossos<br/>Serviços</h1>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex align-items-end">
+                    <p class="his-sobrenos">Bem-vindo à nossa plataforma de serviços excepcionais! 
+                        Na Codding Life, estamos dedicados a fornecer soluções de primeira linha 
+                        que atendam às necessidades específicas de cada cliente.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid imgRedi" src="img/design.png" alt="Desing">
+                    <h1 class="informacoes1">Design</h1>
+                    <p class="his-sobrenos">Montamos toda a identidade visual da sua empresa! Vemos os objetivos e fazemos totalmente de acordo com o que nossos clientes desejam e esperam.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid imgRedi" src="img/desenvolvimento.png" alt="Desenvolvimento">
+                    <h1 class="informacoes1">Desenvolvimento</h1>
+                    <p class="his-sobrenos">Desenvolvemos todos os sistemas e programas! Desde a parte visual, passando pelo front-end, back-end e até os dados, oferecendo soluções completas.
+                    </p>
+    
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid imgRedi" src="img/analise.png" alt="Analise" >
+                    <h1 class="informacoes1">Análise</h1>
+                    <p class="his-sobrenos">Cuidamos de todo estudo para execução do projeto! Todo o levantamento necessário e execução teórica do projeto podemos fazer e entregar.
+                    </p>
+                </div>
+            </div>   
+        </section>
+
+         <!-- equipe -->
+         <section class="container mt-5" id="equipe">
+            <div class="row">
+                <div class="col-12">
+                    <div class="linha-roxa mt-5"></div>
+                    <h1 class="titulo-SobreNos mt-5">Nosso Time</h1>
+                </div>
+            </div>
+
+            <!-- Fotos -->
+            <div class="row mt-3">
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="https://www.linkedin.com/in/davi-sn-31481a312/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Davi.png" alt="Davi">
+                    </a>
+                    <h1 class="txtnome">Davi dos Santos Nascimento</h1>
+                    <p class="cargos">Desenvolvedor Mobile</p> 
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="https://www.linkedin.com/in/daniel-soares-8b4465322/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Daniel.png" alt="Daniel">
+                    </a>
+                    <h1 class="txtnome pd-fer">Daniel Soares <br>dos Santos</h1>
+                    <p class="cargos">Designer e Redes Sociais</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href=" https://www.linkedin.com/in/emilytavaresferreira/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Emily.png" alt="Emily">
+                    </a>
+                    <h1 class="txtnome">Emily Tavares <br> Ferreira</h1>
+                    <p class="cargos">Infraestrutura E Designer</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href=" https://www.linkedin.com/in/fernando-crociatti-6923012a2/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Fernando.png" alt="Fernando">
+                    </a>
+                    <h1 class="txtnome pd-fer">Fernando Crociatti de Toledo</h1>
+                    <p class="cargos">Desenvolvedor Back-End</p>
+                </div>
+
+                <!-- Últimas quatro fotos -->
+
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="  https://www.linkedin.com/in/gabriel-galhardo-1340032a2/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Gabriel.png" alt="Gabriel">
+                    </a>
+                    <h1 class="txtnome">Gabriel Galhardo <br>da Silva</h1>
+                    <p class="cargos">Designer e Redes Sociais</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="https://www.linkedin.com/in/luis-henrique-bispo/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Luis.png" alt="Luis">
+                    </a>
+                    <h1 class="txtnome">Luís Henrique Bispo <br>de Jesus</h1>
+                    <p class="cargos">Desenvolvedor Full-Stack</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="https://www.linkedin.com/in/nicolas-nascimento-389795305/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Nicolas.png" alt="Nicolas">
+                    </a>
+                    <h1 class="txtnome">Nicolas Nascimento <br>de Jesus</h1>
+                    <p class="cargos">Desenvolvedor Back-End</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 py-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="https://www.linkedin.com/in/suzana-lorena-647761273/" target="_blank" class="linkedin-link">
+                        <img class="imgEquipe" src="img/Suzana.png" alt="Suzana">
+                    </a>
+                    <h1 class="txtnome">Suzana Lorena Pereira<br>da Silva</h1>
+                    <p class="cargos">Analista de Requisito</p>
+                </div>
+
+                
+
+            <!-- <div class="row mt-4 pd">
+                <div class="col-12 col-md-6 col-lg-4 py-3 d-flex flex-column justify-content-center">
+                    <img class="imgEquipe" src="img/Luis.png" alt="Luis">
+                    <h1 class="txtnome">Luis Henrique Bispo <br>de Jesus</h1>
+                    <p class="cargos">Desenvolvedor Front-End</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 py-3 d-flex flex-column justify-content-center">
+                    <img class="imgEquipe" src="img/Nicolas.png" alt="Nicolas">
+                    <h1 class="txtnome">Nicolas Nascimento <br>de Jesus</h1>
+                    <p class="cargos"> Desenvolvedor Full Stack</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 py-3 d-flex flex-column justify-content-center">
+                    <img class="imgEquipe" src="img/Suzana.png" alt="Suzana">
+                    <h1 class="txtnome">Suzana Lorena Pereira<br>da Silva</h1>
+                    <p class="cargos">Analista de Sistemas</p>
+                </div>
+            </div>    -->
+        </section>
+    </div>
+
+   
+    <button id="backToTopBtn" title="Ir para o topo">↑</button>
+
+    <!-- Footer -->
+    <footer class="container-fluid p-0">
+        <img class="footer-fundo" id="contatos" src="img/footer1.png" alt="Footer">
+        <div class="footer-content d-flex align-items-center">
+            <div class="row ">
+                <div class="col-12 col-md-7 col-lg-8 py-4">
+                    <p class="text-footer">Convidamos você a nos seguir nas redes sociais para ficar por dentro das novidades, dicas e eventos. <br> Junte-se à nossa comunidade e acompanhe nosso trabalho de perto!</p>
+                </div>
+
+                <div class="btn-icon-footer col-12 col-md-5 col-lg-4 py-lg-4 py-sm-5  py-1 d-flex flex-column align-items-lg-end">
+                    <div>
+                        <a href="https://www.x.com" target="_blank">
+                            <img src="img/x-logo.png" alt="X">
+                        </a>
+        
+                        <a href="https://www.gmail.com" target="_blank">
+                            <img src="img/gmail-logo.png" alt="Gmail">
+                        </a>
+            
+                        <a href="https://www.instagram.com/codingliffe/?igsh=MWwyOGIyOXBsOG92bQ%3D%3D" target="_blank">
+                            <img src="img/instagram-logo.png" alt="Instagram">
+                        </a>
+            
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <img src="img/linkedin-logo.png" alt="LinkedIn">
+                        </a>
+                    </div>
+    
+                    <p class="text-footer2">&copy; 2024 CodingLife LTDA.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
